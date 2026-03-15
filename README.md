@@ -1,35 +1,61 @@
 # NovaStore Database Project
 
 ## Project Overview
-NovaStore is a relational database project designed for an e-commerce platform. The system is built to manage customers, products, and orders in a structured and efficient way using SQL.
 
-The project demonstrates database design principles and advanced SQL query techniques to organize and analyze e-commerce data.
+NovaStore is a relational database project designed for an e-commerce platform. The database system is structured to manage and organize key business data such as customers, products, and orders.
 
-## Database Features
-The database structure includes multiple related tables that represent core entities of an online store:
+This project focuses on designing a structured database architecture and implementing SQL queries to efficiently manage and analyze e-commerce data.
 
-- Customers
-- Products
-- Orders
-- Order Details
+## Database Design
 
-Relationships between these tables are created using primary keys and foreign keys to ensure data integrity.
+The database was designed using relational database principles. Each table represents an essential entity within the system.
+
+The core entities included in the database are:
+
+* Customers
+* Products
+* Orders
+* Order Details
+
+Relationships between these tables are established using **Primary Keys** and **Foreign Keys** to ensure data consistency and integrity.
 
 ## SQL Concepts Used
-This project includes several SQL concepts such as:
 
-- Table creation
-- Data insertion
-- JOIN operations
-- GROUP BY
-- Subqueries
-- Aggregate functions
+The project demonstrates several important SQL concepts and techniques including:
 
-These queries allow the system to generate meaningful reports such as product sales, customer orders, and revenue analysis.
+* Table creation and database schema design
+* Data insertion and management
+* Data retrieval using SELECT statements
+* Multi-table queries using JOIN operations
+* Data grouping using GROUP BY
+* Nested queries using Subqueries
+* Data analysis using Aggregate Functions
+
+These SQL queries allow the system to generate useful reports such as sales analysis, customer order history, and product performance.
 
 ## Database Schema
-The diagram below shows the relational structure of the database tables used in the NovaStore system.
 
-![Database Schema](database_schema.png)
+The diagram below illustrates the relationships between the tables used in the NovaStore database.
+
+![NovaStore Database Schema](SebanurDark_NovaStore_Proje.png)
+
+## Example SQL Queries
+
+The project includes SQL queries used for:
+
+* Retrieving customer order history
+* Analyzing product sales
+* Calculating total revenue
+* Identifying top-selling products
+* Generating reports based on customer and order data
 
 ## Project Structure
+
+```
+NovaStore/
+ ├── NovaStore.sql
+ ├── SebanurDark_NovaStore_Proje.png
+ └── README.md
+```
+GitHub: https://github.com/sebanur
+
