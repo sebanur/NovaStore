@@ -57,5 +57,3 @@ NovaStore/
  ├── SebanurDark_NovaStore_Proje.png
  └── README.md
 ```
-GitHub: https://github.com/sebanur
-
